@@ -82,7 +82,7 @@ test {
 .main-nav {
     display:flex;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 1em;
     margin: 0;
     max-width: 100%;
 
@@ -96,7 +96,7 @@ test {
 }
 @media only screen and (max-width: 450px) {
     .main-nav {
-        font-size: 0.075em;
+        font-size: 0.01em;
         padding:0;
         margin: 0;
     }
@@ -118,6 +118,7 @@ a {
 margin-left:auto;
 color: yellow;
 margin-right:none;
+padding-right:none;
 }
 
 .sticky {
@@ -288,6 +289,13 @@ form {
     resize: vertical;
     text-align: center;
   }
+@media only screen and (max-width: 450px) {
+    form {
+   width: 75vw;
+
+    }
+}
+
   .requesttrial {
     margin: 15px
   }
