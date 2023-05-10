@@ -82,7 +82,7 @@ test {
 .main-nav {
     display:flex;
     list-style: none;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 0;
     max-width: 100%;
 
