@@ -82,21 +82,21 @@ test {
 .main-nav {
     display:flex;
     list-style: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 0;
     max-width: 100%;
 
 }
 @media only screen and (max-width: 955px) {
     .main-nav {
-        font-size: 0.1em;
+        font-size: 0.15em;
         padding:0;
         margin: 0;
     }
 }
 @media only screen and (max-width: 450px) {
     .main-nav {
-        font-size: 0.01em;
+        font-size: 0.02em;
         padding:0;
         margin: 0;
     }
